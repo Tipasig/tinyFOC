@@ -1,0 +1,3 @@
+all:
+	gcc -g -Wall -o tinyfoc_utest.exe tinyfoc_utest.c tinyfoc_foc_q15.c tinyfoc_smc_q15.c tinyfoc_math_q15.c libmathq15.c
+	./tinyfoc_utest.exe
